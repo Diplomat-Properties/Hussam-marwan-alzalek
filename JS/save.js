@@ -38,11 +38,11 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:Hussam Marwan Alzalek
+FN:Majid Ibrahim
 TITLE:Sales Manager
 ORG:Diplomat Properties
-TEL;TYPE=WORK,VOICE:+971545186667
-EMAIL:hussamalzalik@gmail.com
+TEL;TYPE=WORK,VOICE:+971501070770
+EMAIL:Majd@dpdxb.com
 URL:http://www.dpdxb.com
 ADR;TYPE=WORK:;;PO Box No 181702, Office NO.807, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
@@ -53,7 +53,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'Hussam Marwan Alzalek.vcf';
+  a.download = 'Majid Ibrahim.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
